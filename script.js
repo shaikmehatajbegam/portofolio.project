@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   scrollToNextSection();
 
   // Then scroll to next sections every 2 minutes
-  setInterval(scrollToNextSection, 120000); // 2 minutes per section
+  setInterval(scrollToNextSection, 60000); // 2 minutes per section
 
   // Optional: Animate sections on scroll
   window.addEventListener("scroll", () => {
